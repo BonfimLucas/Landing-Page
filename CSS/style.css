@@ -1,0 +1,142 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0%;
+  
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+.title{
+    flex-direction: column;
+    line-height: px;
+    
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50%;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+
+.logo{
+    max: width 100px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    margin-top:-15px;
+    color: white;
+}
+
+.iphone{
+    max: width 700px;
+    max-height:650px;
+    width: auto;
+    height: auto;
+    margin-top: -650px;
+    margin-left: 10px;
+}
+
+.ios{
+    margin-left: -350px;
+   
+}
+
+.texto1{
+    margin-top: -600px;
+    font-weight: 800px;
+    font-size: 50px;
+   margin-left: 100px;
+
+  
+}
+
+.texto02{
+ margin-left: 100px;
+font-size: 30px;
+color: rgb(255, 255, 255);
+border: 2px solid black;
+border-radius: 20px;
+width: 45%;
+background-color: black;
+}
+
+.texto03{
+    text-align: center;
+
+}
+
+.texto02:hover{
+    color: azure;
+    transition: 0.3s all;
+   
+}
+
+#saiba{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.linha{
+    color: black;
+}
+
+#texto02{
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.3s all;
+}
+
+#saiba:hover{
+    background-color: rgb(255, 253, 253)
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    
+}
+
+.input{
+    margin-top: 20px;
+    padding: 6px;
+    border-radius: 20px;
+    border-color: black;
+    font-size: 15px;
+}
+
+#butao{
+    height: 50px;
+    width: 50%;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
